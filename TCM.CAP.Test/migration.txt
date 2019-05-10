@@ -1,0 +1,7 @@
+﻿step1: initDB
+add-migration init
+Update-Database -Verbose
+
+step2:add swagger
+swaggerUI 地址：
+http://localhost:5001/swagger/index.html
